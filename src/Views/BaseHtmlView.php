@@ -8,9 +8,16 @@ use Joomla\Renderer\RendererInterface;
 
 class BaseHtmlView extends HtmlView
 {
-	private $model;
+    /**
+     * The optional model.
+     *
+     * @var mixed
+     *
+     * @since  1.0
+     */
+    private $model;
 
-	/**
+    /**
      * Instantiate the view.
      *
      * @param   RendererInterface  $renderer      The renderer object.
@@ -19,11 +26,11 @@ class BaseHtmlView extends HtmlView
     {
         parent::__construct($renderer);
 
-		$this->model = $model;
+        $this->model = $model;
     }
 
-	public function getModel()
-	{
-		return $this->model;
-	}
+    public function getModel()
+    {
+        return $this->model;
+    }
 }
