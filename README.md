@@ -10,4 +10,4 @@ This WordPress plugin is a demo of using [Joomla! Framework](https://framework.j
 
 ## Usage
 
-Go to your WordPress plugin and activate the plugin, its main menu item is shown in the WordPress menu as `JFD`.
+Go to your WordPress admin and activate the plugin, its main menu item is shown in the WordPress menu as `JFD`.
