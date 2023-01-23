@@ -1,0 +1,22 @@
+{
+    "require": {
+        "joomla/application": "^2.0",
+        "joomla/input": "^2.0",
+        "joomla/registry": "^2.0",
+        "joomla/controller": "~2.0",
+        "twig/twig": "^3.0",
+        "joomla/view": "^2.0",
+        "joomla/uri": "^2.0",
+        "laminas/laminas-diactoros": "^2.17",
+        "joomla/renderer": "^2.0",
+        "joomla/di": "^2.0",
+        "joomla/router": "^2.0",
+        "joomla/model": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "JFD\\App\\":"src/"
+        },
+        "classmap": ["src/"]
+      }
+}
